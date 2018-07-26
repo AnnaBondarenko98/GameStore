@@ -6,7 +6,7 @@ using GameStore.Bll.Interfaces;
 using GameStore.Bll.ModelsDto;
 using Newtonsoft.Json;
 
-namespace GameStore.Areas.Admin.Controllers
+namespace GameStore.Web.Areas.Admin.Controllers
 {
     public class GameController : Controller
     {
@@ -31,7 +31,7 @@ namespace GameStore.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        [ActionName("updates")]
+        [ActionName("update")]
         public ActionResult EditGame(string jsonGame)
         {
             var gameDto = JsonConvert.DeserializeObject<CreatingGameDto>(jsonGame);

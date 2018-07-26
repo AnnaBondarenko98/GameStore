@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using GameStore.Bll.Infrastructure.Mapper;
 
-namespace GameStore.Infrastructure.Mapper
+namespace GameStore.Web.Infrastructure.Mapper
 {
     public class MapperInitialize
     {

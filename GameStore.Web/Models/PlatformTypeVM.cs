@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace GameStore.Models
+namespace GameStore.Web.Models
 {
     public class PlatformTypeVm
     {

@@ -1,4 +1,4 @@
-﻿namespace GameStore.Models
+﻿namespace GameStore.Web.Models
 {
     public class CommentVm
     {

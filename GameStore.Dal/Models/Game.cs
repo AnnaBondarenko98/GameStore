@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GameStore.Dal.Models
@@ -6,6 +7,7 @@ namespace GameStore.Dal.Models
     public class Game : BaseEntity
     {
         [Index(IsUnique = true)]
+        [MaxLength(20)]
         public string Key { get; set; }
 
         public string Name { get; set; }

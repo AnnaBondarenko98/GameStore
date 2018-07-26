@@ -12,15 +12,17 @@ namespace GameStore.Web.Areas.Admin
             }
         }
 
-        public override void RegisterArea(AreaRegistrationContext context)
+        public override void RegisterArea(AreaRegistrationContext context) 
         {
+
             context.MapRoute("GamesCommon",
                 "admin/{controller}s/{action}",
                 new { action = "GetAll" });
 
             context.MapRoute("GameCommon",
-                "admin/{controller}/{key}/{action}",
-                new { controller = "Game", action = "Details" });
+                    "admin/{controller}/{key}/{action}",
+                    new { controller = "Game", action = "Details" });
+           
         }
     }
 }

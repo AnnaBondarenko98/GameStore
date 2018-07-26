@@ -9,7 +9,7 @@ using GameStore.Bll.ModelsDto;
 using GameStore.Bll.Services;
 using GameStore.Dal.Interfaces;
 using GameStore.Dal.Models;
-using GameStore.Infrastructure.Mapper;
+using GameStore.Web.Infrastructure.Mapper;
 using Moq;
 using NLog;
 using Xunit;

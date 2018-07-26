@@ -11,6 +11,10 @@ namespace GameStore.Dal.Context
             Database.SetInitializer(new DbInitializer());
         }
 
+        public GameStoreContext(): base("GameStoreContext")
+        {
+        }
+
         public GameStoreContext(string connection) : base(connection)
         {
 

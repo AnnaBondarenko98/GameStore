@@ -2,7 +2,7 @@
 using System.Web.Mvc;
 using NLog;
 
-namespace GameStore.Filters
+namespace GameStore.Web.Filters
 {
     public class ActionFilter: FilterAttribute,IActionFilter
     {

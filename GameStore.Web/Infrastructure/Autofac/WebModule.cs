@@ -1,9 +1,9 @@
 ﻿using Autofac;
 using GameStore.Bll.Interfaces;
 using GameStore.Bll.Services;
-using GameStore.Infrastructure.Mapper;
+using GameStore.Web.Infrastructure.Mapper;
 
-namespace GameStore.Infrastructure.Autofac
+namespace GameStore.Web.Infrastructure.Autofac
 {
     public class WebModule : Module
     {

@@ -2,7 +2,7 @@
 using System.Web.Routing;
 using NLog;
 
-namespace GameStore.Filters
+namespace GameStore.Web.Filters
 {
     public class ExceptionFilter : FilterAttribute, IExceptionFilter
     {

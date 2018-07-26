@@ -2,9 +2,8 @@
 using Autofac;
 using Autofac.Integration.Mvc;
 using GameStore.Bll.Infrastructure.Autofac;
-using GameStore.Web;
 
-namespace GameStore.Infrastructure.Autofac
+namespace GameStore.Web.Infrastructure.Autofac
 {
     public class AutofacConfig
     {

@@ -52,6 +52,15 @@
     <Compile Include="Interfaces\IGameStoreContext.cs" />
     <Compile Include="Interfaces\IGenericRepository.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
+    <Compile Include="Migrations\201807261216562_qq.cs" />
+    <Compile Include="Migrations\201807261216562_qq.Designer.cs">
+      <DependentUpon>201807261216562_qq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807261229482_qq2.cs" />
+    <Compile Include="Migrations\201807261229482_qq2.Designer.cs">
+      <DependentUpon>201807261229482_qq2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BaseEntity.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Game.cs" />
@@ -65,6 +74,13 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201807261216562_qq.resx">
+      <DependentUpon>201807261216562_qq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807261229482_qq2.resx">
+      <DependentUpon>201807261229482_qq2.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

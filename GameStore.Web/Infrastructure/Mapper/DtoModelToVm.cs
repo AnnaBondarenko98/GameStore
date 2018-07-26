@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using GameStore.Bll.ModelsDto;
-using GameStore.Models;
+using GameStore.Web.Models;
 
-namespace GameStore.Infrastructure.Mapper
+namespace GameStore.Web.Infrastructure.Mapper
 {
     public class DtoModelToVm : Profile
     {

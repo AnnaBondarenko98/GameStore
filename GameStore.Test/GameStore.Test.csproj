@@ -107,8 +107,8 @@
       <Project>{1006AFF0-0DF7-4B66-BDB7-24067E5C8236}</Project>
       <Name>GameStore.Dal</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GameStore.Web\GameStore.Web.csproj">
-      <Project>{09768555-7F6E-4D4C-9DAE-66817DF2F082}</Project>
+    <ProjectReference Include="D:\Anna\GameStore\GameStore.Web\GameStore.Web.csproj">
+      <Project>{10E35FBD-4E31-4BF5-B3A1-CD6FEAF7384B}</Project>
       <Name>GameStore.Web</Name>
     </ProjectReference>
   </ItemGroup>
